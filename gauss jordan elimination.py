@@ -26,7 +26,7 @@ def gauss_jordan(m):
         myazdir(m)
         return m
     except ZeroDivisionError:
-        print("sonsuz cozumu vardir.")
+        print("Sifira Bolme Hatasi")
 
 
 A = [[1, 2, 1, 5],
@@ -53,4 +53,9 @@ D = [[1, -2, 1, 1],
     [2, -5, 3, 4],
     [2, -3, 1, 0]] # sonsuz cozume sahip
 
-gauss_jordan(C)
+
+E = [[1, -2, 1, 1],
+    [2, -4, 3, 4],
+    [2, -3, 1, 5]] # cozumu olan fakat sifira bolme hatasi alan denklem
+
+gauss_jordan(A)
