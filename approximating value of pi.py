@@ -20,8 +20,8 @@ for i in range(500):
     a = sqrt(1 - S2**2)
     b = 1 - a
     new_S = sqrt(b**2 + S2**2)
-    P = kenar * S
-    pi = P/2 * r
+    cevre = kenar * S
+    pi = cevre/2 * r
     #print(S2,a,b,new_S,P,pi)
     kenar *= 2
     S = new_S
