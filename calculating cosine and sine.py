@@ -1,10 +1,11 @@
 """
-cosinus ve sinus fonksiyonlari sonsuz seriler ile hesaplanabilir.
-The cosine function can be evaluated by infinite series.
+kosinüs ve sinüs fonksiyonlari sonsuz seriler ile hesaplanabilir.
+cosine and sine functions can be evaluated by infinite series.
 
 cosx = 1 - x^2/2! + x^4/4!...
 sinx = x - x^3/3! + x^5/5!...
 """
+
 from math import factorial
 
 radian = int(input("degree: "))
