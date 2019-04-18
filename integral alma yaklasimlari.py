@@ -14,7 +14,7 @@ print(integral)
 
 #uzunkenar integral
 integral = 0
-for i in range (0,n+1):   # ust dikdortgen toplam
+for i in range (1,n+1):   # ust dikdortgen toplam
     integral += f(x1+i*h)*h
 print(integral)
 
